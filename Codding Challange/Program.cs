@@ -6,7 +6,9 @@ namespace Codding_Challange
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int result = MostCommonSubString.getMaxOccurrences("abcde", 2, 4, 26);
+            Console.WriteLine(result);
+            Console.ReadLine();
         }
     }
 }
