@@ -10,9 +10,15 @@ namespace Codding_Challange
         public static string FirstRepeatedWords(string s)
         {
             Dictionary<string, int> dist = new Dictionary<string, int>();
-            //Regex query = new Regex(@" |,|:|;|-|.|\t");
-            var splitString = Regex.Split(s, @"\W");
-            //var splitString = query.Split(s);
+
+            /*First Method*/
+            string[] separators = { ",", ".", "!", "?", ";", ":", " ", "\t" };
+            string value = s;
+            //string[] splitString = value.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+
+            /*Second Method*/
+            var splitString = Regex.Split(s, @"\W+");
+  
             foreach(var elemet in splitString)
             {
                 if(dist.ContainsKey(elemet))

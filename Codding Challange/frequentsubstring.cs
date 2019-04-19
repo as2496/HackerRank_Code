@@ -66,7 +66,7 @@ namespace Codding_Challange
                         }
                     }
                 }
-                return substrings.Max(x => x.Value); ;
+                return substrings.Max(x => x.Value); 
             }catch(Exception ex)
             {
                 Console.WriteLine(ex.Message + s);
