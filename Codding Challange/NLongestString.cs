@@ -22,9 +22,11 @@ namespace Codding_Challange
                     dist.Add(ele, val);
                 }
             }
-            var items = from pair in dist
-                        orderby pair.Value descending
-                        select pair;
+            //var items = from pair in dist
+            //            orderby pair.Value descending
+            //            select pair;
+
+            var items = dist.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
             foreach (var element in items)
             {
                 if (num > 0)

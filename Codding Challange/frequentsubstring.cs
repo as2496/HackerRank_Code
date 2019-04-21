@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Codding_Challange
 {
-    public class frequentsubstring
+    public class Frequentsubstring
     {
         /*
             Most Common Substring
