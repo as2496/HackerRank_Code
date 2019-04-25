@@ -7,7 +7,7 @@ namespace Codding_Challange
 {
     public class NLongestString
     {
-        public static void FindNInputlongestStrings(List<string> str)
+        public static void FindNInAddlongestStrings(List<string> str)
         {
             var num = Convert.ToInt32(str.First());
             str.RemoveAt(0);
