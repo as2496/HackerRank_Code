@@ -47,11 +47,12 @@ namespace Codding_Challange
         /// ([[)
         /// </summary>
         /// <param name="args"></param>
+        /*
         static void Main(string[] args)
         {
             var output = IsBalanced("{)[](}]}]}))}(())(");
             Console.WriteLine(output);
             Console.ReadLine();
-        }
+        }*/
     }
 }
