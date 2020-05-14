@@ -7,21 +7,21 @@ using System.Linq;
     namespace Codding_Challange
     {
 
-        //class Program
-        //{
-      
-        //    static void Main(string[] args)
-        //    {
-        //        //Console.WriteLine("h");
-        //        //Console.ReadLine();
-        //        /**********Camp Systems***********/
+    //class Program
+    //{
 
-        //    //int result = frequentsubstring.getMaxOccurrence("abcde", 2, 5, 3);
+    //    static void Main(string[] args)
+    //    {
+    //        //Console.WriteLine("h");
+    //        //Console.ReadLine();
+    //        /**********Camp Systems***********/
+
+    //    //int result = frequentsubstring.getMaxOccurrence("abcde", 2, 5, 3);
 
 
 
-        //    //IEnumerable<Movie> movies = GetMovieList.GetMoviesAsync("spiderman").GetAwaiter().GetResult();
-        //    //Console.WriteLine($"Retrieved {movies.Count()} movies.");
+        //private IEnumerable<Movie> movies = GetMovieList.GetMoviesAsync("spiderman").GetAwaiter().GetResult();
+       // Console.WriteLine($"Retrieved {movies.Count()} movies.");
 
         //    //var result = FirstRepeatedWord.FirstRepeatedWords("we work hard bec Hard work pay");
 

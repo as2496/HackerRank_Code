@@ -68,13 +68,13 @@ namespace Codding_Challange
             }
             return returnList;
         }
-        static void Main(string[] args)
-        {
-            string[] arr = new string[] { "a1 9 2 3 1", "g1 act car", "zo4 4 7", "ab1 off key dog", "a8 act zoo" };
-            List<string> output = ReordingLogFileSortLexicographycally(5, arr);
-            foreach(var ele in output)
-                Console.WriteLine(ele);
-            Console.ReadLine();
-        }
+        //static void Main(string[] args)
+        //{
+        //    string[] arr = new string[] { "a1 9 2 3 1", "g1 act car", "zo4 4 7", "ab1 off key dog", "a8 act zoo" };
+        //    List<string> output = ReordingLogFileSortLexicographycally(5, arr);
+        //    foreach(var ele in output)
+        //        Console.WriteLine(ele);
+        //    Console.ReadLine();
+        //}
     }
 }
