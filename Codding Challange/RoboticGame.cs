@@ -57,17 +57,17 @@ namespace Codding_Challange
             
             return TotalScore;
         }
-        public static void Main(String[] args)
-        {
-            var list = new List<string>
-            {
-                "4","1","2","+","z" //1// exp3
-                //"5","-2","4","Z","X","9","+","+"
-            };
+        //public static void Main(String[] args)
+        //{
+        //    var list = new List<string>
+        //    {
+        //        "4","1","2","+","z" //1// exp3
+        //        //"5","-2","4","Z","X","9","+","+"
+        //    };
 
 
 
-            GetTotalScore(list);
-        }
+        //    GetTotalScore(list);
+        //}
     }
 }
