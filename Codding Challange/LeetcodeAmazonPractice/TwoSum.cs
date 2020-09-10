@@ -8,6 +8,7 @@ namespace Codding_Challange.LeetcodeAmazonPractice
 {
     class TwoSum
     {
+        /*
         public static void Main(string[] args)
         {
            //var result = TwoSums(new int[]{3,3 },6);
@@ -17,6 +18,7 @@ namespace Codding_Challange.LeetcodeAmazonPractice
                     ,328,227,652,365,430,803,59,858,538,427,583,368,375,173,809,896,370,789}, 542);
             Console.WriteLine();
         }
+        */
         private static int[] TwoSums(int[] nums, int target)
         {
            

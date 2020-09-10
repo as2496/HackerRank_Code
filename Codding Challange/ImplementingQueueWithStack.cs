@@ -48,6 +48,7 @@ namespace Codding_Challange
                 Stack1.Push(element);
             }
         }
+        /*
         public static void Main(string[] args)
         {
             
@@ -84,5 +85,6 @@ namespace Codding_Challange
             }
 
         }
+        */
     }
 }
