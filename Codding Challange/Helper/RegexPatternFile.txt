@@ -34,3 +34,6 @@ Letters, numbers and underscore:
 
 Regex.IsMatch(theString, @"^[\w]+$");
 Note, these patterns also match international characters(as opposed to using the a-z construct).
+
+For digit and plus and minus
+Regex.IsMatch(str, "/^[0-9 ()+-]+$/")

@@ -45,6 +45,8 @@ namespace Codding_Challange.LeetcodeAmazonPractice
                 .First();
             return result.Value;
         }
+
+        /*
         /// <summary>
         /// Test 1: bbbbb => b
         /// Test 2:pwwkew => wke
@@ -57,5 +59,6 @@ namespace Codding_Challange.LeetcodeAmazonPractice
             var length = LengthOfLongestSubString("bbbbb");
             Console.WriteLine($"length is: {length}");
         }
+        */
     }
 }
